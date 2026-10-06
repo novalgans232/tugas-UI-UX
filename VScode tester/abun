@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Kelompok 1 - Desain UI/UX & Pemrograman Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #e9e9e9;
+            border-bottom: 1px solid #ccc;
+        }
+        header h1 {
+            margin: 0 0 5px 0;
+        }
+        header p {
+            margin: 0;
+            font-size: 18px;
+            color: #666;
+        }
+        .intro {
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .intro-box {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: #f1f1f1;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .grid-anggota {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        article {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            display: flex;
+            gap: 15px;
+            background-color: #fafafa;
+        }
+        figure {
+            margin: 0;
+            width: 120px;
+            height: 150px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            border: 1px dashed #aaa;
+        }
+        figure img {
+            max-width: 100%;
+            height: auto;
+        }
+        .info-anggota {
+            flex: 1;
+        }
+        .info-anggota h3 {
+            margin-top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .role {
+            font-size: 12px;
+            background-color: #ccc;
+            padding: 3px 8px;
+            border-radius: 12px;
+        }
+        table {
+            width: 100%;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        table td {
+            padding: 3px 0;
+        }
+        .desc {
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #e9e9e9;
+            border-top: 1px solid #ccc;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Bagian Header -->
+    <header>
+        <h1>👥 Kelompok 11</h1>
+        <p>Matkul UI/UX & Pemrograman Web</p>
+    </header>
+
+    <!-- Bagian Intro -->
+    <section class="intro">
+        <div class="intro-box">
+            <span style="font-size: 24px;">👥</span>
+            <div>
+                <h3>Intro</h3>
+                <p>Kumpulan Biodata Anggota Kelompok 11</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Grid Biodata Anggota -->
+    <section class="grid-anggota">
+        
+        <!-- Kartu Anggota 1 -->
+        <article>
+            <figure>
+                <!-- Ubah src dengan path gambar yang sesuai -->
+                <img src="assets/img/ridho.jpg" alt="Foto Anggota 1">
+            </figure>
+            <div class="info-anggota">
+                <h3>Nama Anggota 1 </h3>
+                <table>
+                    <tr><td width="30%">NIM</td><td>: 0110226071</td></tr>
+                    <tr><td>Rombel</td><td>: 11</td></tr>
+                    <tr><td>Prodi</td><td>: Teknik Informatika</td></tr>
+                    <tr><td>Email</td><td>: mrasyidridho0406@gmail.com</td></tr>
+                </table>
+            </div>
+        </article>
+
+        <!-- Kartu Anggota 2 -->
+        <article>
+            <figure>
+                <img src="assets/img/rasyid.jpg" alt="Foto Anggota 2">
+            </figure>
+            <div class="info-anggota">
+                <h3>Nama Anggota 2 </h3>
+                <table>
+                    <tr><td width="30%">NIM</td><td>: 0110226102</td></tr>
+                    <tr><td>Rombel</td><td>: 11</td></tr>
+                    <tr><td>Prodi</td><td>: Teknik Informatika</td></tr>
+                    <tr><td>Email</td><td>: rasyadzain1712@gmail.com</td></tr>
+                </table>
+            </div>
+        </article>
+
+        <!-- Kartu Anggota 3 -->
+        <article>
+            <figure>
+                <img src="assets/img/noval.jpg" alt="Foto Anggota 3">
+            </figure>
+            <div class="info-anggota">
+                <h3>Nama Anggota 3 </h3>
+                <table>
+                    <tr><td width="30%">NIM</td><td>: 0110226163</td></tr>
+                    <tr><td>Rombel</td><td>: 11</td></tr>
+                    <tr><td>Prodi</td><td>: Teknik Informatika</td></tr>
+                    <tr><td>Email</td><td>:novalrahmadan1778@gmail.com</td></tr>
+                </table>
+            </div>
+        </article>
+
+        <!-- Kartu Anggota 4 -->
+        <article>
+            <figure>
+                <img src="assets/img/rifhan.jpg" alt="Foto Anggota 4">
+            </figure>
+            <div class="info-anggota">
+                <h3>Nama Anggota 4 </h3>
+                <table>
+                    <tr><td width="30%">NIM</td><td>: 0110226024</td></tr>
+                    <tr><td>Rombel</td><td>: 11</td></tr>
+                    <tr><td>Prodi</td><td>: Teknik Informatika</td></tr>
+                    <tr><td>Email</td><td>: muhrifhan6@gmail.com</td></tr>
+                </table>
+            </div>
+        </article>
+
+        <!-- Kartu Anggota 5 -->
+        <article>
+            <figure>
+                <img src="assets/img/nafis.jpg" alt="Foto Anggota 4">
+            </figure>
+            <div class="info-anggota">
+                <h3>Nama Anggota 4 </h3>
+                <table>
+                    <tr><td width="30%">NIM</td><td>: 0110226015</td></tr>
+                    <tr><td>Rombel</td><td>: 11</td></tr>
+                    <tr><td>Prodi</td><td>: Teknik Informatika</td></tr>
+                    <tr><td>Email</td><td>: nafisnashrullah@gmail.com</td></tr>
+                </table>
+            </div>
+        </article>
+
+
+    </section>
+
+
+</body>
+</html>
