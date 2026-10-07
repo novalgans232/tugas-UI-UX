@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata Kelompok 1 - Desain UI/UX & Pemrograman Web</title>
+</head>
+<body>
+
+    <!-- Bagian Header -->
+    <h1 align="center"> Kelompok 11</h1>
+    <p align="center">Tugas Matkul UI/UX & Pemrograman Web</p>
+    <hr>
+
+    <!-- Bagian Intro -->
+    <h3>Intro</h3>
+    <p>Kumpulan Biodata Anggota Kelompok 11</p>
+    <hr>
+
+   
+    <table border="1" width="100%" cellpadding="15" cellspacing="10">
+        
+        <!-- Baris Pertama (Anggota 1 & Anggota 2) -->
+        <tr>
+            <!-- Kartu Anggota 1 -->
+            <td width="50%" valign="top">
+                <table width="100%">
+                    <tr>
+                        <td width="130" valign="top">
+                            <img src="assets/img/ridho.jpg" alt="Foto Anggota 1" width="120">
+                        </td>
+                        <td valign="top">
+                            <h3 style="margin-top:0;">Nama Anggota 1 (Anggota)</h3>
+                            <b>NIM</b> : 0110226071<br>
+                            <b>Rombel</b> : 11<br>
+                            <b>Prodi</b> : Teknik Informatika<br>
+                            <b>Email</b> : mrasyidridho0406@gmail.com<br>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Kartu Anggota 2 -->
+            <td width="50%" valign="top">
+                <table width="100%">
+                    <tr>
+                        <td width="130" valign="top">
+                            <img src="assets/img/noval.jpg" alt="Foto Anggota 2" width="120">
+                        </td>
+                        <td valign="top">
+                            <h3 style="margin-top:0;">Nama Anggota 2 (Anggota)</h3>
+                            <b>NIM</b> : 0110226163<br>
+                            <b>Rombel</b> : 11<br>
+                            <b>Prodi</b> : Teknik Informatika<br>
+                            <b>Email</b> : novalrahmadan1777@gmail.com<br>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Baris Kedua (Anggota 3 & Anggota 4) -->
+        <tr>
+            <!-- Kartu Anggota 3 -->
+            <td width="50%" valign="top">
+                <table width="100%">
+                    <tr>
+                        <td width="130" valign="top">
+                            <img src="assets/img/rasyid.jpg" alt="Foto Anggota 3" width="120">
+                        </td>
+                        <td valign="top">
+                            <h3 style="margin-top:0;">Nama Anggota 3 (Ketua)</h3>
+                            <b>NIM</b> : 0110226102<br>
+                            <b>Rombel</b> : 11<br>
+                            <b>Prodi</b> : Teknik Informatika<br>
+                            <b>Email</b> : rasyadzain1712@gmail.com<br>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Kartu Anggota 4 -->
+            <td width="50%" valign="top">
+                <table width="100%">
+                    <tr>
+                        <td width="130" valign="top">
+                            <img src="assets/img/rifhan.jpg" alt="Foto Anggota 4" width="120">
+                        </td>
+                        <td valign="top">
+                            <h3 style="margin-top:0;">Nama Anggota 4 (Wakil)</h3>
+                            <b>NIM</b> : 0110226024<br>
+                            <b>Rombel</b> : 11<br>
+                            <b>Prodi</b> : Teknik Informatika<br>
+                            <b>Email</b> : muhrifhan6@gmail.com<br>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+            <!-- Kartu Anggota 4 -->
+            <td width="50%" valign="top">
+                <table width="100%">
+                    <tr>
+                        <td width="130" valign="top">
+                            <img src="assets/img/nafis.jpg" alt="Foto Anggota 4" width="120">
+                        </td>
+                        <td valign="top">
+                            <h3 style="margin-top:0;">Nama Anggota 4 (Anggota)</h3>
+                            <b>NIM</b> : 0110226015<br>
+                            <b>Rombel</b> : 11<br>
+                            <b>Prodi</b> : Teknik Informatika<br>
+                            <b>Email</b> : nafisnashrullah@gmail.com<br>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+   
+</body>
+</html>
